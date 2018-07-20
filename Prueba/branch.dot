@@ -1,0 +1,19 @@
+digraph {
+subgraph cluster_file_5fbff191d5a5c0a99b1eb0237197abc7 {
+label="C:\wamp64\www\Prueba\src\article2-Test.php";
+subgraph cluster_aba6b0d5ebebfe43e6d519d2227f2887 {
+	label="ifthenelse";
+	graph [rankdir="LR"];
+	node [shape = record];
+	"__ifthenelse_0" [ label = "{ op #0-4 | line 2-4 }" ];
+	"__ifthenelse_5" [ label = "{ op #5-7 | line 5-6 }" ];
+	"__ifthenelse_8" [ label = "{ op #8-9 | line 7-7 }" ];
+	"__ifthenelse_10" [ label = "{ op #10-12 | line 8-9 }" ];
+	"__ifthenelse_13" [ label = "{ op #13-14 | line 10-10 }" ];
+	"__ifthenelse_ENTRY" [label="ENTRY"];	"__ifthenelse_EXIT" [label="EXIT"];	"__ifthenelse_ENTRY" -> "__ifthenelse_0" -> "__ifthenelse_5" -> "__ifthenelse_8" -> "__ifthenelse_10" -> "__ifthenelse_13" -> "__ifthenelse_EXIT" [color="/set19/1" penwidth=3  style=dashed];
+	"__ifthenelse_ENTRY" -> "__ifthenelse_0" -> "__ifthenelse_5" -> "__ifthenelse_8" -> "__ifthenelse_13" -> "__ifthenelse_EXIT" [color="/set19/2" penwidth=3 ];
+	"__ifthenelse_ENTRY" -> "__ifthenelse_0" -> "__ifthenelse_8" -> "__ifthenelse_10" -> "__ifthenelse_13" -> "__ifthenelse_EXIT" [color="/set19/3" penwidth=3 ];
+	"__ifthenelse_ENTRY" -> "__ifthenelse_0" -> "__ifthenelse_8" -> "__ifthenelse_13" -> "__ifthenelse_EXIT" [color="/set19/4" penwidth=3  style=dashed];
+}
+}
+}

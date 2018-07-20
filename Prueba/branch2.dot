@@ -1,0 +1,21 @@
+digraph {
+subgraph cluster_file_1ecc01320eb79c28ed7d80b3e870b60e {
+label="C:\wamp64\www\Prueba\src\branch2.php";
+subgraph cluster_3547e5fe636189a35f3b7aa7f8444a15 {
+	label="testBranch";
+	graph [rankdir="LR"];
+	node [shape = record];
+	"__testBranch_0" [ label = "{ op #0-2 | line 2-5 }" ];
+	"__testBranch_3" [ label = "{ op #3-5 | line 5-5 }" ];
+	"__testBranch_6" [ label = "{ op #6-8 | line 5-5 }" ];
+	"__testBranch_9" [ label = "{ op #9-11 | line 7-8 }" ];
+	"__testBranch_12" [ label = "{ op #12-14 | line 9-10 }" ];
+	"__testBranch_15" [ label = "{ op #15-16 | line 13-15 }" ];
+	"__testBranch_17" [ label = "{ op #17-17 | line 15-15 }" ];
+	"__testBranch_18" [ label = "{ op #18-21 | line 16-17 }" ];
+	"__testBranch_ENTRY" [label="ENTRY"];	"__testBranch_EXIT" [label="EXIT"];	"__testBranch_ENTRY" -> "__testBranch_0" -> "__testBranch_3" -> "__testBranch_18" -> "__testBranch_EXIT" [color="/set19/1" penwidth=3  style=dashed];
+	"__testBranch_ENTRY" -> "__testBranch_0" -> "__testBranch_3" -> "__testBranch_9" -> "__testBranch_12" -> "__testBranch_17" -> "__testBranch_6" -> "__testBranch_3" -> "__testBranch_18" -> "__testBranch_EXIT" [color="/set19/2" penwidth=3  style=dashed];
+	"__testBranch_ENTRY" -> "__testBranch_0" -> "__testBranch_3" -> "__testBranch_9" -> "__testBranch_15" -> "__testBranch_17" -> "__testBranch_6" -> "__testBranch_3" -> "__testBranch_18" -> "__testBranch_EXIT" [color="/set19/3" penwidth=3  style=dashed];
+}
+}
+}
